@@ -1,2 +1,2 @@
 # animais-fantasticos-javascript
-JavaScript exercise performed in the front end development course offered by Origamid.
+JavaScript exercise performed during the front end development course offered by Origamid.
