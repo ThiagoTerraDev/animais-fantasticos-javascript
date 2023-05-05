@@ -6,12 +6,12 @@ export default function initFetchAnimais() {
             const animaisResponse = await fetch(url);
             const animaisJSON = await animaisResponse.json();
             const numerosGrid = document.querySelector('.numeros-grid');
-            animaisJSON.forEach(animal => {
+            animaisJSON.forEach((animal) => {
                 const divAnimal = createAnimal(animal);
                 numerosGrid.appendChild(divAnimal);
             })
             initAnimaNumeros();
-        } catch(erro) {
+        } catch (erro) {
             console.log(erro);
         }
     }
